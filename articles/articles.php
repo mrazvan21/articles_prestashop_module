@@ -55,12 +55,12 @@ class articles extends Module
 	
 	private function _makeThumbnails($filename, $new_width)
 	{
-		$imageDir  = '/upload/articles/'.$filename;
+		$imageDir  = '/mnt/futurehome/netlogiq/public_html/spi/upload/articles/'.$filename;
 		$fileInfos = pathinfo($filename);
 		$imageName = str_replace('.'.$fileInfos['extension'],"", $filename);
 		$thumbName = $imageName.$new_width.'.'.$fileInfos['extension'];
 		
-		$thumbDir = '/upload/articles/'.$thumbName;
+		$thumbDir = '/mnt/futurehome/netlogiq/public_html/spi/upload/articles/'.$thumbName;
 		
 		switch ($fileInfos['extension'])
 		{
@@ -118,7 +118,7 @@ class articles extends Module
 		{
 			if(in_array($_FILES['file']['type'], $this->allowedExts))
 			{
-				$uploadDir = "/upload/articles/".$image;
+				$uploadDir = "/mnt/futurehome/netlogiq/public_html/spi/upload/articles/".$image;
 				$i=0;
 				
 				$fileInfos = pathinfo($uploadDir);
@@ -127,7 +127,7 @@ class articles extends Module
 				do
 				{	
 					$new_imageName = $imageName.(($i == 0)?'':$i).'.'.$fileInfos['extension'];
-					$uploadDir = "/upload/articles/".$new_imageName;
+					$uploadDir = "/mnt/futurehome/netlogiq/public_html/spi/upload/articles/".$new_imageName;
 					$i++;
 				}
 				while(file_exists($uploadDir));
