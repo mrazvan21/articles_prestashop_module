@@ -1,6 +1,0 @@
-[10-Jan-2013 10:49:22 UTC] PHP Warning:  Division by zero in /mnt/futurehome/netlogiq/public_html/spi/modules/articles/articles.php on line 286
-[10-Jan-2013 10:49:22 UTC] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /mnt/futurehome/netlogiq/public_html/spi/modules/articles/articles.php on line 302
-[10-Jan-2013 10:50:08 UTC] PHP Warning:  Division by zero in /mnt/futurehome/netlogiq/public_html/spi/modules/articles/articles.php on line 286
-[10-Jan-2013 10:50:08 UTC] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /mnt/futurehome/netlogiq/public_html/spi/modules/articles/articles.php on line 302
-[10-Jan-2013 10:50:31 UTC] PHP Warning:  Division by zero in /mnt/futurehome/netlogiq/public_html/spi/modules/articles/articles.php on line 287
-[10-Jan-2013 10:50:31 UTC] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /mnt/futurehome/netlogiq/public_html/spi/modules/articles/articles.php on line 303
